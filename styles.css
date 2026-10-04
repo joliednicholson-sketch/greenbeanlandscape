@@ -203,6 +203,8 @@ img { max-width: 100%; }
   .form { grid-template-columns: 1fr; padding: 1.4rem; }
   .gallery { grid-template-columns: 1fr; }
   .mobile-cta { display: flex; position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 30; }
+  .mobile-cta { transform: translateY(160%); transition: transform .3s ease; }
+  .mobile-cta.show { transform: none; }
   .site-footer { padding-bottom: 6rem; }
 }
 

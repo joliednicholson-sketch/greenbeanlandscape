@@ -55,7 +55,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="dot"></span>Wilmington, NC · Landscape design &amp; installation</p>
+          <p class="eyebrow"><span class="dot"></span>Wilmington, NC landscape design</p>
           <h1>Outdoor spaces that <em>grow on you.</em></h1>
           <p class="lead">From a fresh front yard to a full backyard retreat, Green Bean Landscape Designs plans, plants, and builds outdoor spaces where you can finally relax and enjoy being home.</p>
           <div class="hero-actions">
@@ -287,6 +287,11 @@
     links.addEventListener('click', e => {
       if (e.target.tagName === 'A') { links.classList.remove('open'); toggle.setAttribute('aria-expanded', false); }
     });
+    // Show the floating button only once the hero's own buttons have scrolled away.
+    const cta = document.querySelector('.mobile-cta');
+    const onScroll = () => cta.classList.toggle('show', window.scrollY > window.innerHeight * 0.8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
   </script>
 </body>
 </html>
