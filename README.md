@@ -1,6 +1,6 @@
 # Green Bean Landscape Designs website
 
-Static website for **greenbeanlandscapedesigns.com**. It's plain HTML and CSS, so there's no build step.
+Static website for **greenbeanlandscapedesigns.com**, the site for Green Bean Landscape Designs in Wilmington, NC. It's plain HTML and CSS, so there's no build step.
 
 ## Files
 
@@ -14,7 +14,6 @@ Static website for **greenbeanlandscapedesigns.com**. It's plain HTML and CSS, s
 
 Search `index.html` for these:
 
-- `[YOUR CITY]` / `YOUR CITY, ST`: service area
 - `YOUR_FORM_ID`: form service ID so consultation requests reach your inbox
 - Gallery: put photos in `assets/gallery/` and replace each placeholder `<figure>` (the comment in the gallery section shows the markup)
 
