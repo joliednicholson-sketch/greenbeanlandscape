@@ -14,10 +14,7 @@ Static website for **greenbeanlandscapedesigns.com**. It's plain HTML and CSS, s
 
 Search `index.html` for these:
 
-- `(555) 555-5555` / `+15555555555` / `+1-555-555-5555`: phone number
-- `hello@greenbeanlandscapedesigns.com`: email
 - `[YOUR CITY]` / `YOUR CITY, ST`: service area
-- `[Tell your story here…]`: the About section
 - `YOUR_FORM_ID`: form service ID so consultation requests reach your inbox
 - Gallery: put photos in `assets/gallery/` and replace each placeholder `<figure>` (the comment in the gallery section shows the markup)
 
