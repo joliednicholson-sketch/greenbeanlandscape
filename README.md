@@ -1,6 +1,6 @@
 # Green Bean Landscape Designs website
 
-Static website for **greenbeanlandscapedesigns.com**, the site for Green Bean Landscape Designs in Wilmington, NC. It's plain HTML and CSS, so there's no build step.
+Static website for **greenbeanlandscapedesigns.com**, the site for Green Bean Landscape Designs serving Wilmington, Raleigh and surrounding areas in NC. It's plain HTML and CSS, so there's no build step.
 
 ## Files
 
